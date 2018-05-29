@@ -1,0 +1,40 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "React.js with SSR ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./dist/server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thyahan/react-ssr.git"
+  },
+  "keywords": [
+    "React",
+    "SSR"
+  ],
+  "author": "Yutthana Yahan <thyahan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thyahan/react-ssr/issues"
+  },
+  "homepage": "https://github.com/thyahan/react-ssr#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^3.8.1",
+    "webpack-node-externals": "^1.2.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^2.2.4"
+  }
+}
